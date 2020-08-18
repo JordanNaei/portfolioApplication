@@ -9,3 +9,15 @@
 
   padding-bottom: 1rem;  
 }
+
+.interest-box {
+
+  text-align: center;
+  padding: 5%; 
+}
+
+.icon {
+  
+    color:#ef8172;
+    margin-bottom: 1rem;
+  }
