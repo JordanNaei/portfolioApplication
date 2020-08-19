@@ -54,10 +54,12 @@
     <!-- Added a favicon -->
     <link rel="icon" href="images/favicon.png" alt="Website icon" />
   </head>
+
+
   <body>
-    <section id="Bio">
+    
       <!-- Nav Bar -->
-      <div class="container-fluid">
+     <section id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href=""
             >Jordan-Naei <i class="fas fa-robot"></i
@@ -87,7 +89,9 @@
             </ul>
           </div>
         </nav>
-        <!-- Title -->
+      </section>
+        <!-- Bio -->
+      <section id="Bio">
         <div class="row">
           <div class="col-lg-6">
             <p>
@@ -114,8 +118,9 @@
             <img class="title-image" src="images/El.jpg" alt="iphone-mockup" />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+     
+    
 
     <!-- Areas of interest -->
 
@@ -142,19 +147,49 @@
     <!-- Accomplishment -->
 
     <section id="highlights">
-      <h2>UEURUERUEOIURIOEUUEWURUWEDHSJHFJHDFEYHFUEHUHFHFUIOEHFEUWIH</h2>
-      <img src="images/DTiger.png" alt="dog-profile" />
-      <em>GGG</em>
-
-      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-      <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-      <em>Beverly, Illinois</em> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="car-item-pd carousel-item active">
+            <h2>UEURUERUEOIURIOEUUEWURUWEDHSJHFJHDFEYHFUEHUHFHFUIOEHFEUWIH</h2>
+            <img src="images/DTiger.png" alt="dog-profile" />
+            <em>Software Engineering</em>
+          </div>
+          <div class="car-item-pd carousel-item">
+            <h2>UEURUERUEOIURIOEUUEWURUWEDHSJHFJHDFEYHFUEHUHFHFUIOEHFEUWIH</h2>
+            <img src="images/DTiger.png" alt="dog-profile" />
+            <em>GGG</em>
+          </div>
+          <div class="car-item-pd carousel-item">
+            <h2>UEURUERUEOIURIOEUUEWURUWEDHSJHFJHDFEYHFUEHUHFHFUIOEHFEUWIH</h2>
+            <img src="images/DTiger.png" alt="dog-profile" />
+            <em>GGG</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+ 
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright 2020 JordanNaei</p>
+      <i class="f-icon fab fa-twitter"></i>
+      <i class="f-icon fab fa-facebook"></i>
+      <i class="f-icon fab fa-instagram"></i>
+      <i class="f-icon fas fa-envelope"></i>
+      <p class="footer-p">© Copyright 2020 JordanNaei</p>
     </footer>
   </body>
 </html>

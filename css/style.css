@@ -7,7 +7,9 @@
 
 .title-image {
 
-  padding-bottom: 1rem;  
+  padding-bottom: 1rem;
+  border-radius: 100%; 
+  margin-left: 20%;
 }
 
 .interest-box {
@@ -21,3 +23,38 @@
     color:#ef8172;
     margin-bottom: 1rem;
   }
+
+  #highlights {
+
+    background-color:#ef8172;
+    text-align: center;
+  }
+
+  .car-item-pd {
+    padding-bottom: 4rem;
+  }
+
+  /* footer section */
+
+  #footer {
+
+    text-align: center;
+    padding: 5%;
+  }
+
+  .f-icon {
+
+    padding: 10px;
+  }
+
+  .footer-p  {
+margin-top: 10px;
+  }
+
+  #navbar {
+  
+    background-color: darkgray;
+  }
+
+  /* Line breaker */
+
