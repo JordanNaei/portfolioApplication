@@ -4,7 +4,13 @@ body {}
 
 #navbar {
   background-color: #519872;
+  color: wh;
 }
+
+.nav-link {
+font-weight: 600;
+}
+
 
 /* Bio Section */
 
@@ -12,18 +18,17 @@ body {}
   background-color: #91d18b;
 }
 
+.Bio-head {
+  font-size: 1.5rem;
+  text-align: center;
+  }
+  
 .bio-p {
   padding: 3%;
   color: black;
+  font-weight: 700;
   text-align: left;
 }
-
-.Bio-head {
-font-size: 1.5rem;
-text-align: center;
-}
-
-.t-div {}
 
 .title-image {
   padding-bottom: 1rem;
@@ -44,16 +49,12 @@ text-align: center;
 }
 
 .icon {
-  color: #91d18b;
+  color: #96bb7c;
   margin-bottom: 1rem;
 }
 
 /* higlights section */
 
-.fas{
-
-  color: black;
-}
 #highlights {
   background-color: #91d18b;
   text-align: center;
@@ -61,6 +62,16 @@ text-align: center;
 
 .car-item-pd {
   padding-bottom: 4rem;
+}
+
+.carousel-inner {
+
+  padding: 5%;
+}
+
+.car-h {
+
+  margin-bottom: 2rem;
 }
 
 /* footer section */
